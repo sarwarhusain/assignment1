@@ -1,7 +1,100 @@
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+    font-optical-sizing: 28px;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
   }
+/* shared styles */
+.btn-nav{
+    font-size: 20px;
+    color:rgba(13, 19, 33, 1);
+    padding: 5px 29px;
+    border-radius: 8px;
+    margin:38px 0px 15px 0px ;
+    background-color: white;
+    border-color:rgba(13, 19, 33, 1); ;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 1)
+}
+.text-center{
+    text-align: center;
+}
+
+  /* nav styles */
+  nav{
+    display: flex;
+    color: #0D1321;
+    justify-content: space-between;
+    
+    padding:0px 150px 0px 150px ;
+  }
+  .nav-title{
+    font-size: 28px;
+    color: rgba(13, 19, 33, 1);
+    margin-top: 50px;
+  }
+
+  /* banner styles */
+  .banner{
+    background-image: url(../assets/Hero-bg.png);
+    text-align: center;
+  }
+  
+  .banner-column{
+    padding: 36px 221px ;
+  }
+  .banner-title{
+    font-size: 48px;
+    color: rgba(13, 19, 33, 1);
+  }
+  .banner-description{
+    font-size: 16px;
+  }
+  .btn-banner{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+  }
+
+   /* cards styles */ 
+  
+   .cards-section{
+    margin-top: 84px ;
+    margin-left: 10px;
+    margin-right: 100px;
+    padding: 80px 97px ;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+  }
+ .cards-title{
+    font-size: 32px;
+    color:rgba(13, 19, 33, 1);
+    text-align: center;
+ }
+ .cards-description{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
+    padding-bottom: 10px;
+ } 
+
+ .cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin:48px 48px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-radius:16px ;
+    
+}
+
+.card-profile-pic{
+    width: 261px;
+
+}
+

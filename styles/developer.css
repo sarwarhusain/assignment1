@@ -6,6 +6,9 @@
       "wdth" 100;
   }
 /* shared styles */
+.hide{
+  display: none;
+}
 .bg-color-html{
   background-color: rgba(255, 76, 30, 0.05);
 }
@@ -104,6 +107,9 @@
     /* padding: 20px; */
     
 }
+.card-content{
+  padding:10px;
+}
 
 .card-profile-pic{
     width: 261px;
@@ -193,8 +199,19 @@
   margin-top: 15px;
   margin-left: 152px;
   margin-right: 150px;
-
 }
-.fotter-title{
-  font-size: px ;
+.footer-title{
+  font-size: 16px ;
+}
+form input[type="text"], form input[type="email"]{
+  height: 20px;
+   /* display: block; */
+  width: 35%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px 10px ;
+  margin-bottom: 24px;
+  border: none;
+  /* don't use space between input[]  */
+
 }

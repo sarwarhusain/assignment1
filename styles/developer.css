@@ -6,6 +6,7 @@
       "wdth" 100;
   }
 /* shared styles */
+
 .hide{
   display: none;
 }
@@ -30,7 +31,7 @@
 .section-title{
     font-size: 32px;
     font-weight: bold;
-    color: rgba(13, 19, 33, 1)
+    color: rgba(13, 19, 33, 1);
 }
 .text-center{
     text-align: center;
@@ -41,7 +42,6 @@
     display: flex;
     color: #0D1321;
     justify-content: space-between;
-    
     padding:0px 150px 0px 150px ;
   }
   .nav-title{
@@ -55,7 +55,6 @@
     background-image: url(../assets/Hero-bg.png);
     text-align: center;
   }
-  
   .banner-column{
     padding: 36px 221px ;
   }
@@ -75,69 +74,60 @@
   }
 
    /* cards styles */ 
- 
-   .cards-section{
-    margin-top: 84px ;
-    margin-left: 148px;
-    margin-right: 152px;
-    padding: 40px 97px ;
-    text-align: center;
-    border-radius: 16px;
-    /* justify-content: space-between; */
-    background-color: rgba(13, 19, 33, 0.02);
-  }
  .cards-title{
     font-size: 32px;
-
     color:rgba(13, 19, 33, 1);
  }
+
  .cards-description{
     font-size: 16px;
     color: rgba(13, 19, 33, 1);
-    /* padding-bottom: 10px; */
  } 
 
  .cards-container{
     display: flex;
     justify-content: space-between;
-    margin:48px 10px;
-    gap: 10px;
+    gap: 60px;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-radius:16px ;
-    /* padding: 20px; */
-    
+    margin: 20px 148px 10px 152px;
+    padding: 40px 97px ;
+    /* text-align: center; */
+    border-radius: 16px;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .card-content{
   padding:10px;
 }
 
 .card-profile-pic{
-    width: 261px;
+  width: 261px;
 }
-/*video styles */
 
+
+/*video styles */
  .inspiration-content{
   text-align: center;
-
-} 
-.video{
-  justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 16px;
-  padding: 32px 32px;
-  
 } 
 .video-side{
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left:280px;
+  margin-right:310px;
+  border-radius: 16px;
+  padding: 22px 22px;
+} 
+.video{
   border-radius: 16px;
 }
 .inspiration-title{
   font-size: 32px;
   color:rgba(13, 19, 33, 1);
-
 }
 .inspiration-description{
   font-size: 16px;
-  margin-left: 142px;
+  margin-left: 150px;
   margin-right: 152px;
   color:rgba(13, 19, 33, 1);
 }
@@ -146,24 +136,24 @@
 .target-container{
   display: flex;
   gap: 24px;
-  margin-left: 142px;
-  margin-right: 152px;
-}
-.target{
+  margin: 84px 152px 50px 150px;
   padding: 20px;
   border-radius: 16px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.target{
+  padding: 10px;
+  border-radius: 5px;
 }
 .target-title{
   font-size: 16px;
 }
 .target-description{
   font-size: 16px;
-
 }
 .section-description{
   text-align: center;
-  margin-left: 142px;
+  margin-left: 150px;
   margin-right: 152px;
 }
 
@@ -172,14 +162,13 @@
   background-image: url(../assets/handshake.jpg);
   text-align: center;
   margin-top: 10px;
-  margin-left: 152px;
-  margin-right: 150px;
+  margin: 84px 152px 50px 142px;
   border-radius:16px ;
 }
+
 .support{
   text-align: center;
   padding:30px 20px ;
-
 }
 .support-title{
   font-size: 32px;
@@ -196,9 +185,7 @@
   display: flex;
   /* gap: 24px; */
   justify-content: space-between;
-  margin-top: 15px;
-  margin-left: 152px;
-  margin-right: 150px;
+  margin: 84px 152px 50px 142px;
 }
 .footer-title{
   font-size: 16px ;
@@ -213,5 +200,4 @@ form input[type="text"], form input[type="email"]{
   margin-bottom: 24px;
   border: none;
   /* don't use space between input[]  */
-
 }
